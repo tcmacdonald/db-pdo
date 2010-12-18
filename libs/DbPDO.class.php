@@ -17,7 +17,7 @@ class DbPDO {
 			self::$dbh = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
 			self::$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 		} catch (PDOException $e) {
-    		die("Error!: ".$e->getMessage());
+			die("Error!: ".$e->getMessage());
 		}
 	}
 	/**

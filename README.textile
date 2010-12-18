@@ -1,0 +1,10 @@
+h2. Usage
+
+Include @libs/DbPDO.class.php@ and define the following constants.
+<pre>&lt;?php<br />include('libs/DbPDO.class.php');<br />define('DBHOST','localhost');<br />define('DBNAME','database');<br />define('DBUSER','username');<br />define('DBPASS','password');</pre>
+
+Instantiate the class by calling the connect method. 
+<pre>&lt;?php<br />$db = DbPDO::connect();</pre>
+
+Run your queries.
+<pre>&lt;?php<br />$rows = $db->fetchAll('select * from table');</pre>
