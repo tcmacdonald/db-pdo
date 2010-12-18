@@ -1,10 +1,10 @@
 <?php
 /**
- * @author Taylor C. MacDonald <tcmacdonald@gmail.com>
+ * @author tcmacdonald at gmail dot com
  */
 class u extends Utility {}
 /**
- * @author Taylor C. MacDonald <tcmacdonald@gmail.com>
+ * @author tcmacdonald at gmail dot com
  */
 class Utility {
 	/**

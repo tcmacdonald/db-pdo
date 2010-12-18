@@ -2,7 +2,7 @@
 /**
  * DbPDO Singleton Class
  * @author tcmacdonald at gmail dot com
- **/
+ */
 class DbPDO {
 	private static $instance; 
 	private static $id; 
